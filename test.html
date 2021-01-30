@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bubbles!</title>
+
+		<link rel="stylesheet" href="bubbles.css">
+		<style>
+			body, html {
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			body > .bubbles {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+		<script type="text/javascript" src="bubbles.js"></script>
+	</head>
+	<body>
+		<div class="bubbles"></div>
+		<script type="text/javascript">Bubbles.forEach(document.getElementsByClassName("bubbles"))</script>
+	</body>
+</html>
